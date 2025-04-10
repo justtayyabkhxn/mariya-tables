@@ -1,0 +1,7 @@
+body {
+  background-image: url('./assets/cute-cat.jpg'); /* Put your cat image in the public/assets or src/assets folder */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Comic Sans MS', cursive;
+  color: #fff;
+}
