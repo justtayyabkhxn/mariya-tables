@@ -13,7 +13,7 @@ function App() {
     <div className="app">
       <h1 style={{color:"black"}}>📚 Mariya's Cute Tables!</h1>
       <div className="button-container">
-        {[...Array(8)].map((_, i) => (
+        {[...Array(10)].map((_, i) => (
           <button key={i} onClick={() => handleClick(i + 2)}>
             Table of {i + 2}
           </button>
